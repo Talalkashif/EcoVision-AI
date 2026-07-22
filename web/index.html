@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoVision AI</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+</head>
+
+<body>
+
+<h1>🌱 EcoVision AI</h1>
+
+<p>Upload an image to classify it.</p>
+
+<input type="file" id="imageInput" accept="image/*">
+
+<br><br>
+
+<img id="preview" width="300" style="display:none;">
+
+<h2 id="result">Loading AI...</h2>
+
+<script src="script.js"></script>
+
+</body>
+</html>
